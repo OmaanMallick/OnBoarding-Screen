@@ -6,7 +6,7 @@ export default function CustomButton({ title, handlePress, containerStyles, text
     <TouchableOpacity 
       style={[styles.button, containerStyles]} 
       onPress={handlePress}
-      disabled={isLoading} // Optionally disable button when loading
+      disabled={isLoading} // Disable the button if it's loading
     >
       <Text style={[styles.text, textStyles]}>{title}</Text>
     </TouchableOpacity>

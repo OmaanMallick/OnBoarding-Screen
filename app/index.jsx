@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import CustomButton from '../components/CustomButton';
 import { useRouter } from 'expo-router';
 
-export default function Index() {
+export default function index() {
   const router = useRouter();
 
   const handlePress = () => {
